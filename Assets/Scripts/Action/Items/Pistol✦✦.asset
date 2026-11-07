@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe0699d5ccb2b347ba8bba3eeba511d, type: 3}
+  m_Name: "Pistol\u2726\u2726"
+  m_EditorClassIdentifier: 
+  itemName: Pistol II
+  itemTooltip: press [E] to pick up
+  itemDescription: Special forces handgun
+  icon: {fileID: 21300000, guid: 06a13bd1d76e3f34982cd294f24d4cc6, type: 3}
+  category: 3
+  equipSlot: 1
+  stackable: 1
+  maxStack: 99
+  healthRestore: 0
+  staminaRestore: 0
+  attackBonus: 16
+  defenseBonus: 0
+  usedInCrafting: 1

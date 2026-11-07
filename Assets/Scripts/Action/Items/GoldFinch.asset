@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe0699d5ccb2b347ba8bba3eeba511d, type: 3}
+  m_Name: GoldFinch
+  m_EditorClassIdentifier: 
+  itemName: Gold Finch
+  itemTooltip: press [E] to pick up
+  itemDescription: Perfect for scavenging and maximizing resources
+  icon: {fileID: 21300000, guid: ba5d63817d94bf44da75f1e7dd9abcda, type: 3}
+  category: 5
+  equipSlot: 6
+  stackable: 1
+  maxStack: 99
+  buyPrice: 0
+  sellPrice: 0
+  healthRestore: 0
+  staminaRestore: 0
+  attackBonus: 0
+  defenseBonus: 0
+  usedInCrafting: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 201b8d7e6ec6b2f46b2942fdb3e9e7f5, type: 3}
+  m_Name: "Vest\u2726\u2726"
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: d42441b186bb6b646a77711d3f0b3cc7, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 4b202b9a734ad30428d3c8fb792d1d4c, type: 2}
+    quantity: 2
+  outputItem: {fileID: 11400000, guid: 5c73ea771befa804dbab13be0332a038, type: 2}
+  outputQuantity: 1
+  successChance: 0.7
+  craftingTime: 2
+  failureOutputs:
+  - item: {fileID: 11400000, guid: d42441b186bb6b646a77711d3f0b3cc7, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 9e559469caf0dde4cbcb48a36942b413, type: 2}
+    quantity: 3

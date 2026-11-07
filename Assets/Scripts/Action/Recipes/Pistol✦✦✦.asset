@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 201b8d7e6ec6b2f46b2942fdb3e9e7f5, type: 3}
+  m_Name: "Pistol\u2726\u2726\u2726"
+  m_EditorClassIdentifier: 
+  ingredients:
+  - item: {fileID: 11400000, guid: 425f45ff9a58c024e8e1b06237badec6, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: eba13ae98b9e40740a783db44f3495c5, type: 2}
+    quantity: 3
+  outputItem: {fileID: 11400000, guid: c65d84adc9ce9d545b62d1bb9de77bf8, type: 2}
+  outputQuantity: 1
+  successChance: 0.55
+  craftingTime: 2
+  failureOutputs:
+  - item: {fileID: 11400000, guid: 425f45ff9a58c024e8e1b06237badec6, type: 2}
+    quantity: 1
+  - item: {fileID: 11400000, guid: 9e559469caf0dde4cbcb48a36942b413, type: 2}
+    quantity: 3
