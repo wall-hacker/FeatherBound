@@ -8,6 +8,8 @@
 
 All footage and screenshots were **captured in-engine from the actual game captures**.
 
+> 🎞️ Every video in this document plays as a silent animated preview. Click a preview to open the full MP4.
+
 ---
 
 ## 1. Core loop
@@ -28,6 +30,8 @@ Progress (inventory and equipment) persists between scenes through a JSON save (
 ![](screenshots/08_the_outpost.jpg)
 
 Isometric, **point-and-click** navigation on a NavMesh: left-click to walk, Shift to run, Q/E or middle-mouse to rotate the camera, wheel to zoom. Hovering a building outlines it and shows a tooltip. Walking into a doorway plays a scripted sequence: the door opens, the character walks in, the door closes, and the camera glides to an interior view where that building's UI opens.
+
+<a href="github/videos/11_worlds_hub.mp4"><img src="github/previews/11_worlds_hub.gif" alt="11_worlds_hub preview" width="100%"></a>
 
 🎬 [`github/videos/11_worlds_hub.mp4`](github/videos/11_worlds_hub.mp4)
 
@@ -50,6 +54,8 @@ A carousel shop. The birds fly in and out of the stage as you browse, and the �
 | **Crow** | 200 | +4 attack | Next 5 kills: stealth kills grant bonus coins, normal kills waste a charge |
 | **Chickadee** | 250 | Glass cannon: above 75% HP more damage, below 50% HP less defense | Next 3 bullets are insta-kills |
 
+<a href="github/videos/01_hub_aviary.mp4"><img src="github/previews/01_hub_aviary.gif" alt="01_hub_aviary preview" width="100%"></a>
+
 🎬 [`github/videos/01_hub_aviary.mp4`](github/videos/01_hub_aviary.mp4). It shows a hover tooltip, a ground click, the door sequence, browsing Gold Finch → Crow → Robin, the info panel and a purchase.
 
 ### 2.2 The Workshop: crafting
@@ -69,6 +75,8 @@ A carousel shop. The birds fly in and out of the stage as you browse, and the �
 | Consumables | Health / Big Health Potion, Stamina / Big Energy Potion |
 | Upgrades & materials | Weapon Upgrade, Armor Upgrade, 7 basic materials |
 
+<a href="github/videos/02_hub_workshop.mp4"><img src="github/previews/02_hub_workshop.gif" alt="02_hub_workshop preview" width="100%"></a>
+
 🎬 [`github/videos/02_hub_workshop.mp4`](github/videos/02_hub_workshop.mp4). Rifle III is shown as locked (Missing Materials), then Boots are crafted at 100% success and the Leather counter drops from 5/5 to 0/5.
 
 ### 2.3 Inventory and equipment
@@ -85,6 +93,8 @@ Press **I** to open it. On the left are 6 equipment slots: Weapon, Helmet, Chest
 |---|---|---|
 | **Sun Temple** | 100 zombies → coins | 120 collectibles → materials |
 | **Flooded City** | 100 zombies → coins | 120 collectibles → materials |
+
+<a href="github/videos/03_mission_select.mp4"><img src="github/previews/03_mission_select.gif" alt="03_mission_select preview" width="100%"></a>
 
 🎬 [`github/videos/03_mission_select.mp4`](github/videos/03_mission_select.mp4). It ends with the real scene load into Flooded City.
 
@@ -128,11 +138,15 @@ Damage per shot is the weapon's base damage plus the player's attack stat, so ge
 * [`github/videos/07_combat_backpedal.mp4`](github/videos/07_combat_backpedal.mp4): back-pedal down a wet street while firing.
 * [`github/videos/08_combat_alley.mp4`](github/videos/08_combat_alley.mp4): hold an alley, then switch to a target across the plaza.
 
+<table><tr><td width="33%"><a href="github/videos/06_combat_run_in.mp4"><img src="github/previews/06_combat_run_in.gif" alt="06_combat_run_in preview" width="100%"></a></td><td width="33%"><a href="github/videos/07_combat_backpedal.mp4"><img src="github/previews/07_combat_backpedal.gif" alt="07_combat_backpedal preview" width="100%"></a></td><td width="33%"><a href="github/videos/08_combat_alley.mp4"><img src="github/previews/08_combat_alley.gif" alt="08_combat_alley preview" width="100%"></a></td></tr></table>
+
 ### 3.4 Stealth
 
 ![](screenshots/03_strike_from_the_shadows.jpg)
 
 Sneaking (Ctrl) slows you down. Get within 2 m of an **unaware** zombie, no more than 60° off from directly behind it, and press **F** for a silent knife takedown. With the Crow's active ability running, stealth kills pay out bonus coins.
+
+<a href="github/videos/05_stealth_takedown.mp4"><img src="github/previews/05_stealth_takedown.gif" alt="05_stealth_takedown preview" width="100%"></a>
 
 🎬 [`github/videos/05_stealth_takedown.mp4`](github/videos/05_stealth_takedown.mp4)
 
@@ -144,6 +158,8 @@ Sneaking (Ctrl) slows you down. Get within 2 m of an **unaware** zombie, no more
 * **Reveal (V)** sends out an expanding pulse that outlines nearby collectibles for a few seconds. The Gold Finch's passive extends its reach.
 * Walk into range and the item highlights and shows a tooltip. Press **E** to pick it up.
 * You win by collecting everything before the **10-minute** timer runs out. Otherwise time's up and you return to the hub with what you found.
+
+<a href="github/videos/04_scavenge.mp4"><img src="github/previews/04_scavenge.gif" alt="04_scavenge preview" width="100%"></a>
 
 🎬 [`github/videos/04_scavenge.mp4`](github/videos/04_scavenge.mp4) (Flooded City). It shows the reveal pulse, the Gold Finch ability, then four real pickups in a row (Metal Scraps, two Bottles, Leather). Each one counts **+2** and the counter climbs 0 → 4/120, ending on the haul in the inventory.
 
@@ -158,5 +174,5 @@ Sneaking (Ctrl) slows you down. Get within 2 m of an **unaware** zombie, no more
 
 | | |
 |---|---|
-| ![](screenshots/09_the_sun_temple.jpg) | **The Sun Temple:** a sunlit hillside town with terraces, stairways and vaulted, firelit temple halls.<br>🎬 [`github/videos/09_worlds_sun_temple.mp4`](github/videos/09_worlds_sun_temple.mp4) |
-| ![](screenshots/10_the_flooded_city.jpg) | **The Flooded City:** a foggy, overgrown district of drowned streets and iron gates.<br>🎬 [`github/videos/10_worlds_flooded_city.mp4`](github/videos/10_worlds_flooded_city.mp4) |
+| [![The Sun Temple flyover](github/previews/09_worlds_sun_temple.gif)](github/videos/09_worlds_sun_temple.mp4) | **The Sun Temple:** a sunlit hillside town with terraces, stairways and vaulted, firelit temple halls.<br>🎬 [`github/videos/09_worlds_sun_temple.mp4`](github/videos/09_worlds_sun_temple.mp4) |
+| [![The Flooded City flyover](github/previews/10_worlds_flooded_city.gif)](github/videos/10_worlds_flooded_city.mp4) | **The Flooded City:** a foggy, overgrown district of drowned streets and iron gates.<br>🎬 [`github/videos/10_worlds_flooded_city.mp4`](github/videos/10_worlds_flooded_city.mp4) |

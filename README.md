@@ -119,7 +119,7 @@ Gameplay scripts live in [`Assets/Scripts/`](Assets/Scripts). `Action/` holds th
 
 All footage and screenshots were captured in-engine from the actual game.
 
-- 🎬 [Trailer](GameplayBreakdown/github/FEATHERBOUND_trailer_github.mp4) and per-mechanic demo clips in [`GameplayBreakdown/github/videos`](GameplayBreakdown/github/videos)
+- 🎬 [Trailer](GameplayBreakdown/github/FEATHERBOUND_trailer_github.mp4) and per-mechanic demo clips in [`GameplayBreakdown/github/videos`](GameplayBreakdown/github/videos). Each clip also plays inline as an animated preview in the [gameplay breakdown](GameplayBreakdown/GAMEPLAY_BREAKDOWN.md) ([`previews/`](GameplayBreakdown/github/previews))
 - 🖼️ Store-style screenshots in [`GameplayBreakdown/screenshots`](GameplayBreakdown/screenshots)
 - 📖 A detailed design breakdown in [`GameplayBreakdown/GAMEPLAY_BREAKDOWN.md`](GameplayBreakdown/GAMEPLAY_BREAKDOWN.md)
 
